@@ -1,0 +1,6 @@
+version: "3"
+services:
+  googleping:
+    build: .
+    volumes:
+      - "./:/root/rust"

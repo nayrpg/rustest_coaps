@@ -1,0 +1,9 @@
+[package]
+name = "RustyPlayground"
+version = "0.1.0"
+authors = ["Ryan Granger <nayrpg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+#openssl = { version = "0.10", features = ["vendored"] }
+openssl = { version = "0.10" }
