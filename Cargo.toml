@@ -1,9 +1,10 @@
 [package]
-name = "RustyPlayground"
+name = "rustest_coaps"
 version = "0.1.0"
-authors = ["Ryan Granger <nayrpg@gmail.com>"]
+authors = ["Ryan Granger <rygrange@cisco.com>"]
 edition = "2018"
 
 [dependencies]
-#openssl = { version = "0.10", features = ["vendored"] }
-openssl = { version = "0.10" }
+openssl = { version = "0.10", features = ["vendored"] }
+coap = "0.7"
+#openssl = { version = "0.10" }
